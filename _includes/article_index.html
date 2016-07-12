@@ -6,7 +6,7 @@
                     {{ post.vimeo-embed }}
                 </div>
             {% endif %}
-        {% elsif post.type == "youtube" %}
+        {% elsif post.type == "youku" %}
             {% if post.yt-video-id %}
                 <div class="video_container">
                     <iframe src="https://www.youtube.com/embed/{{ post.yt-video-id }}?feature=player_detailpage" frameborder="0" allowfullscreen></iframe>
