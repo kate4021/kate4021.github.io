@@ -1,9 +1,9 @@
 ---
 ayout: post   
-title: beautiful  
-tag: life       
+title: c 冒泡排序法
+tag: c       
 Description: 我的description
-category: life
+category: c
 ---
 #include<stdio.h>
 void main()
