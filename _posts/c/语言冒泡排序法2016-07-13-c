@@ -1,9 +1,9 @@
 ---
-layout: post   
-title: c语言 冒泡排序法
-tag: c
+ayout: post   
+title: beautiful  
+tag: life       
 Description: 我的description
-category: c
+category: life
 ---
 #include<stdio.h>
 void main()
