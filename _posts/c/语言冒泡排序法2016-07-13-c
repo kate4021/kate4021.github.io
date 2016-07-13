@@ -1,0 +1,30 @@
+---
+layout: post   
+title: c语言-冒泡排序法
+tag: c
+Description: 我的description
+category: c
+---
+#include<stdio.h>
+void main()
+{
+	int a[]={8,2,5,7,4,5},length;
+	int i,j,temp;
+	length=sizeof(a)/sizeof(int);
+	for(i=0;i<length-2;i++)//6个数，比较5轮
+	{   //0   ~  4 
+		for(j=0;j<5;j++)//每轮比较5次
+		{
+			if(a[j]>a[j+1])
+			{
+				temp=a[j];
+				a[j]=a[j+1];
+				a[j+1]=temp;
+			}
+		}
+	}
+	for(i=0;i<=5;i++)
+	{
+		printf("%d\t",a[i]);
+	}
+}
